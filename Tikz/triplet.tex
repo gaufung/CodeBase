@@ -1,0 +1,23 @@
+% -*- coding:utf-8 -*-
+\documentclass{standalone}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{matrix,calc,shapes,backgrounds,patterns,positioning,decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+\draw[thick,->](0,0) -- (3-0.2,0);
+\draw[-] (0,0) -- (-1,-2) -- (1,-2.5) -- (2, -1.8) -- (3,0);
+\draw[-] (3,0) -- (3.5,-1);
+\draw[fill=white] (0,0) circle (.2) node at (0,0){A};
+\draw[fill=white] (3,0) circle (.2) node at (3,0){B};
+
+\draw[fill=white] (-1,-2) circle (.2);
+\draw[fill=white] (1, -2.5) circle (.2);
+\draw[fill=white] (2, -1.8) circle (.2);
+\draw[fill=white] (3.5, -1) circle (.2);
+
+\draw[thick, style=dashed,->] (0.3,0.3) -- (2.7,0.3) node[pos=0.5, above,font=\small]{发送至目的节点};
+\draw[thick, style=dashed,->] (2.7,-0.3)--(0.3,-0.3)  node[pos=0.5, below,font=\small]{发送至源节点};
+\end{tikzpicture}
+\end{document}

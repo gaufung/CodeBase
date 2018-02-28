@@ -1,0 +1,34 @@
+% -*- coding:utf-8 -*-
+\documentclass{standalone}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{matrix,calc,shapes,backgrounds,patterns,positioning,decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+\node[inner sep=0pt] (applicaiton) at (0,0) {\includegraphics[width=1cm,height=1cm]{figures/application.png}};
+\node[inner sep=0pt] (user) at (3,0) {\includegraphics[width=1cm,height=1cm]{figures/users.png}};
+\node[inner sep=0pt] (author) at (6,0) {\includegraphics[width=1cm,height=1cm]{figures/author.png}};
+\node[inner sep=0pt] (database) at (9,0) {\includegraphics[width=1cm,height=1cm]{figures/database.png}}; 
+\node[inner sep=0pt, below = 0.2 cm of applicaiton](app) {应用程序};
+\node[inner sep=0pt, below = 0.2 cm of user](us) {用户};
+\node[inner sep=0pt, below = 0.2 cm of author](auth) {授权服务器};
+\node[inner sep=0pt, below = 0.2 cm of database](db) {API服务器};
+\draw[very thick, -, style=dashed] (app.south) -- (0,-6.5);
+\draw[very thick, -, style=dashed] (us.south) -- (3,-6.5);
+\draw[very thick, -, style=dashed] (auth.south) -- (6,-6.5);
+\draw[very thick, -, style=dashed] (db.south) -- (9,-6.5);
+%draw line 
+\draw[very thick, ->, draw=green] (0, -2) -- (3,-2) node[pos=0.5, above] {授权请求};
+\draw[very thick, ->, draw=green] (3,-2.8) -- (0, -2.8)  node[pos=0.5, above] {授权确认};
+
+\draw[very thick, ->, draw=orange] (0, -3.5) -- (6,-3.5) node[pos=0.75, above] {授权确认};
+\draw[very thick, ->, draw=orange] (6,-4.3) -- (0, -4.3)  node[pos=0.75, above] {访问令牌};
+
+%draw last line 
+\draw[very thick, ->, draw=blue] (0, -5.0) -- (9,-5.0) node[pos=0.83, above] {访问令牌};
+\draw[very thick, ->, draw=blue] (9,-5.8) -- (0, -5.8)  node[pos=0.83, above] {受保护资源};
+\end{tikzpicture}
+\end{document}

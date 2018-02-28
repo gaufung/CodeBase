@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: body/chap1.aux
+A level-1 auxiliary file: body/chap2.aux
+A level-1 auxiliary file: body/chap3.aux
+A level-1 auxiliary file: body/chap4.aux
+A level-1 auxiliary file: body/chap5.aux
+A level-1 auxiliary file: body/chap6.aux
+The style file: new-cumt-num.bst
+A level-1 auxiliary file: body/resume.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: RefExam.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty booktitle in Lars2011HBase
+Warning--empty booktitle in ESRIGIS
+Warning--empty booktitle in SinghMapReduce
+Warning--empty year in SinghMapReduce
+Warning--empty year in SinghMapReduce
+Warning--empty booktitle in MllibMLlib
+Warning--empty year in MllibMLlib
+Warning--empty year in MllibMLlib
+Warning--there's a number but no volume in 廉捷2011新浪微博数据挖掘方案
+Warning--empty booktitle in Bychowski2003Open
+Warning--empty booktitle in Urbanek2012proj4
+Warning--empty booktitle in Ghosh2017Install1
+Warning--empty booktitle in Ghosh2017Install2
+Warning--there's a number but no volume in 韩华瑞2016湖北省微博签到活动空间差异分析——以新浪微博为例
+Warning--there's a number but no volume in 冯梅陈鹏钢铁
+Warning--there's a number but no volume in 杨小柳乡土中国
+You've used 82 entries,
+            3416 wiz_defined-function locations,
+            1205 strings with 19486 characters,
+and the built_in function-call counts, 170018 in all, are:
+= -- 2783
+> -- 23040
+< -- 14934
++ -- 8256
+- -- 414
+* -- 2341
+:= -- 20157
+add.period$ -- 310
+call.type$ -- 82
+change.case$ -- 154
+chr.to.int$ -- 7047
+cite$ -- 98
+duplicate$ -- 15604
+empty$ -- 3498
+format.name$ -- 496
+if$ -- 36667
+int.to.chr$ -- 3
+int.to.str$ -- 83
+missing$ -- 5
+newline$ -- 482
+num.names$ -- 246
+pop$ -- 8247
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 14808
+stack$ -- 0
+substring$ -- 7833
+swap$ -- 168
+text.length$ -- 82
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 559
+warning$ -- 16
+while$ -- 285
+width$ -- 0
+write$ -- 1237
+(There were 16 warnings)

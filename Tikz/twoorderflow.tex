@@ -1,0 +1,23 @@
+% -*- coding:utf-8 -*-
+\documentclass{standalone}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{matrix,calc,shapes,backgrounds,patterns,positioning,decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+\draw[rounded corners=1mm,fill=none, draw=black] (0,0) rectangle (2,1) node at (1, 0.5){PointRDD};
+\draw[fill=none, draw=black] (3,0) rectangle (5,1) node[align=center] at (4,0.5){网格坐标 \\ -点对象};
+\draw[fill=none, draw=black] (6,0) rectangle (8,1) node[align=center] at (7,0.5){空间关联 \\ 行实例粗集};
+\draw[fill=none, draw=black] (9,0) rectangle (11,1) node[align=center] at (10, 0.5){空间关联 \\ 行实例};
+\draw[rounded corners=1mm,fill=none, draw=black] (12,0) rectangle (14, 1) node[align=center] at (13,0.5){空间关联 \\ 表实例};
+\draw[fill=none, draw=black] (1.5,-2) rectangle (3.5, -1) node[align=center] at (2.5,-1.5){网格};
+\draw[thick, ->] (2,0.5) -- (3,0.5);
+\draw[thick, ->] (5,0.5) -- (6, 0.5);
+\draw[thick, ->] (8,0.5) -- (9, 0.5);
+\draw[thick, ->] (11,0.5) -- (12,0.5);
+\draw[rounded corners=1mm,fill=none, draw=black] (-1,-2) rectangle (0,-1) node[align=center] at (-0.5, -1.5){距离阈值$d$};
+\end{tikzpicture}
+\end{document}

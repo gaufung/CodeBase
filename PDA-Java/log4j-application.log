@@ -1,0 +1,9 @@
+2017-08-02 20:28:50 ERROR MultiPeriodAAM:167 - java.lang.NoSuchMethodException: org.iecas.pda.SinglePeriodAAM.getrei()
+2017-08-02 20:30:10 ERROR MultiPeriodAAM:167 - java.lang.NoSuchMethodException: org.iecas.pda.SinglePeriodAAM.getrei()
+2017-08-02 20:33:07 ERROR MultiPeriodAAM:167 - java.lang.NoSuchMethodException: org.iecas.pda.SinglePeriodAAM.getrei()
+2017-08-02 20:38:51 ERROR MultiPeriodAAM:167 - java.lang.NoSuchMethodException: org.iecas.pda.SinglePeriodAAM.getrei()
+2017-08-02 20:39:31 ERROR MultiPeriodAAM:167 - java.lang.NoSuchMethodException: org.iecas.pda.SinglePeriodAAM.getrei()
+2017-08-02 20:42:40 ERROR MultiPeriodAAM:166 - java.lang.NoSuchMethodException: org.iecas.pda.SinglePeriodAAM.getrei()
+2017-08-02 20:47:22 ERROR MultiPeriodAAM:166 - java.lang.NoSuchMethodException: org.iecas.pda.SinglePeriodAAM.getrei()
+2017-08-02 22:13:04 ERROR MultiPeriodAAM:92 - java.lang.NullPointerException
+2017-08-02 22:15:18 ERROR MultiPeriodAAM:92 - java.lang.NullPointerException

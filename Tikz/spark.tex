@@ -1,0 +1,36 @@
+% -*- coding:utf-8 -*-
+\documentclass{standalone}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{matrix,calc,shapes,backgrounds,patterns,positioning,decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}[node distance=1cm]
+\tikzset{
+    bottomnode/.style={rectangle,rounded corners=2mm,draw=none, fill=blue!60,very thick, inner sep=1mm, minimum size=3mm, align=center},
+    topnode/.style={rectangle,rounded corners=2mm,draw=none, fill=orange!70,very thick, inner sep=1mm, minimum size=3mm, align=center},
+    belownode/.style={rectangle,rounded corners=2mm,draw=none, fill=green!70,very thick, inner sep=1mm, minimum size=3mm, align=center},
+}
+
+\draw[bottomnode] (0,0) rectangle (8.9,1) node[color=white, font=\bfseries] at (4.45,0.5) {Spark Core};
+\draw[bottomnode] (0,1.1) rectangle (2,2.1) node[color=white, font=\bfseries] at (1+0.3, 1.6) {Java};
+\node[inner sep=0pt] (java) at (0.5,1.6)  {\includegraphics[width=0.8cm]{figures/java.png}};
+\draw[bottomnode] (0+2.3,1.1) rectangle (2+2.3,2.1) node[color=white, font=\bfseries] at (1+2.3+0.3, 1.6) {Scala};
+\node[inner sep=0pt] (sclala) at (2.8,1.6)  {\includegraphics[width=0.5cm]{figures/scala.png}};
+\draw[bottomnode] (0+4.6,1.1) rectangle (2+4.6,2.1) node[color=white, font=\bfseries] at (1+4.6+0.3, 1.6) {Python};
+\node[inner sep=0pt] (python) at (4.9,1.6)  {\includegraphics[width=0.6cm]{figures/python.png}};
+\draw[bottomnode] (0+6.9,1.1) rectangle (2+6.9,2.1) node[color=white, font=\bfseries] at (1+6.9+0.3, 1.6) {R};
+\node[inner sep=0pt] (r) at (7.5,1.6)  {\includegraphics[width=0.6cm]{figures/R.png}};
+\draw[bottomnode] (0, 2.2)  rectangle (8.9,3.2) node[color=white, font=\bfseries] at (4.45, 2.7){Spark DataFrame API};
+% eco system
+\draw[topnode] (0, 3.3) rectangle (4.4, 4.3) node[color=white, font=\bfseries] at (2.2, 3.8) {Spark SQL};
+\draw[topnode] (0+4.5, 3.3) rectangle (4.4+4.5, 4.3) node[color=white, font=\bfseries] at (2.2+4.5, 3.8) {Spark MLlib};
+\draw[topnode] (0, 3.3+1.1) rectangle (4.4, 4.3+1.1) node[color=white, font=\bfseries] at (2.2, 3.8+1.1) {Spark GraphX};
+\draw[topnode] (4.5, 3.3+1.1) rectangle (4.4+4.5, 4.3+1.1) node[color=white, font=\bfseries] at (2.2+4.5, 3.8+1.1) {Spark Streaming};
+\draw[belownode] (0, -0.1) rectangle (2.9, -1.1) node[color=white, font=\bfseries] at (1.45,-0.6) {Standalone};
+\draw[belownode] (0+3, -0.1) rectangle (2.9+3, -1.1) node[color=white, font=\bfseries] at (1.45+3,-0.6) {YARN};
+\draw[belownode] (0+3+3, -0.1) rectangle (2.9+3+3, -1.1) node[color=white, font=\bfseries] at (1.45+3+3,-0.6) {Mesos};
+\end{tikzpicture}
+\end{document}

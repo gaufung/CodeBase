@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+LOGS/
+__pycache__/
+profile_stats_*.stats
+Thinking-In-Java/out/
+Simple-Web-Framework/venv/
+PDA/app/out/
+*.pyc
+LMDI/out/
+LMDI/log4j-application.log
+Tikz/*.pdf
+PDA-Java/*.xlsx
+

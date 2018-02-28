@@ -1,0 +1,24 @@
+1: package edu.cumt.IO;
+2: 
+3: import java.io.*;
+4: 
+5: /**
+6:  * Created by 高峰 on 14/06/2017.
+7:  */
+8: public class BasicFileOutput {
+9:     static String file = "BasicFileOutput.out";
+10:     public static void main(String[] args) throws IOException{
+11:         BufferedReader in = new BufferedReader(new
+12:                 StringReader(BufferedInputFile.read("./src/edu/cumt/IO/BasicFileOutput.java")));
+13:         PrintWriter out = new PrintWriter(
+14:                 new BufferedWriter(new FileWriter(file))
+15:         );
+16:         int lineCount = 1;
+17:         String s;
+18:         while((s=in.readLine())!=null){
+19:             out.println(lineCount++ + ": "+s);
+20:         }
+21:         out.close();
+22:         System.out.println(BufferedInputFile.read(file));
+23:     }
+24: }

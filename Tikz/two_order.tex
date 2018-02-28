@@ -1,0 +1,80 @@
+% -*- coding:utf-8 -*-
+\documentclass{standalone}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{matrix,calc,shapes,backgrounds,patterns,positioning,decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+%draw the grid
+\foreach \x in {0,..., 6}
+	\draw[style=dashed,-] (0.5*\x,0) -- (0.5*\x, 3);
+\foreach \x in {0,..., 6}	
+	\draw[style=dashed,-] (0, 0.5*\x) -- (3, 0.5*\x);
+%draw the coordinate
+\foreach \x in {1,...,6}
+	\node[below] at (0.5*\x-0.25,-0.1){\x};
+\foreach \x in {1,...,6}
+	\node[left] at (-0.1, 0.5*\x -0.25){\x};
+%first 
+\draw[thick, -] (0.7/2, 5.3/2) -- (1.7/2, 4.3/2);
+\shade[shading=ball, ball color=blue!70] (0.7/2, 5.3/2) circle (2pt) node[above]{$b_5$};
+\shade[shading=ball, ball color=blue!70] (1.7/2, 4.3/2) circle (2pt) node[right]{$b_2$};
+
+% %second
+\draw[thick, -] (4.5/2, 5.3/2) --  (4.8/2, 4.2/2) -- (5.9/2,  4.9/2) -- cycle;
+\shade[shading=ball, ball color=green!70] (4.5/2, 5.3/2) circle (2pt) node[above]{$c_2$};
+\shade[shading=ball, ball color=red!70] (4.8/2, 4.2/2) circle (2pt) node[below]{$a_2$};
+\shade[shading=ball, ball color=blue!70] (5.9/2,  4.9/2) circle(2pt) node[above]{$b_4$};
+
+% %draw last
+\draw[thick, -] (1/2, 0.5/2) -- (1.5/2, 1.5/2) -- (2.7/2, 1.9/2) -- (2.9/2, 3.0/2) -- (3.5/2, 2.5/2) -- (3.8/2, 1.7/2) -- (4.7/2, 1.4/2);
+\draw[thick, -] (3.8/2, 1.7/2)  -- (2.7/2, 1.9/2)  -- (3.5/2, 2.5/2) ;
+\shade[shading=ball, ball color=blue!70] (1/2, 0.5/2) circle (2pt) node[left]{$b_1$};
+\shade[shading=ball, ball color=red!70] (1.5/2, 1.5/2) circle (2pt) node[above]{$a_1$};
+\shade[shading=ball, ball color=green!70] (2.7/2, 1.9/2) circle (2pt) node[below]{$c_1$};
+\shade[shading=ball, ball color=red!70] (2.9/2, 3.0/2) circle (2pt) node[above]{$a_4$};
+\shade[shading=ball, ball color=red!70] (3.5/2, 2.5/2) circle (2pt) node[above right]{$a_3$};
+\shade[shading=ball, ball color=blue!70] (3.8/2, 1.7/2) circle(2pt) node[below]{$b_3$};
+\shade[shading=ball, ball color =green!70] (4.7/2, 1.4/2) circle(2pt) node[right]{$c_3$};
+%draw the row instances
+\draw[very thick, ->] (3.1, 1.5) -- (3.4, 1.5);
+\node at (3.75, 0.25) {$a_1$}; \node at (4.25,0.25) {$b_1$}; \node at (4.75, 0.25){$b_3$}; \node at (5.25,0.25) {$c_3$};
+\node at (3.75, 0.75) {$a_1$}; \node at (4.25,0.75) {$c_1$}; \node at (4.75, 0.75){$b_3$}; \node at (5.25,0.75) {$b_3$};
+\node at (3.75, 1.25) {$c_1$}; \node at (4.25,1.25) {$b_3$}; \node at (4.75, 1.25){$a_2$}; \node at (5.25,1.25) {$b_4$};
+\node at (3.75, 1.75) {$c_1$}; \node at (4.25,1.75) {$a_4$}; \node at (4.75, 1.75){$a_2$}; \node at (5.25,1.75) {$c_2$};
+\node at (3.75, 2.25) {$a_4$}; \node at (4.25,2.25) {$a_3$}; \node at (4.75, 2.25){$c_2$}; \node at (5.25,2.25) {$b_4$};
+\node at (3.75, 2.75) {$a_3$}; \node at (4.25,2.75) {$c_1$}; \node at (4.75, 2.75){$b_5$}; \node at (5.25,2.75) {$b_2$};
+\draw[very thick,-] (3.6,3)--(4.4,3);
+\draw[very thick,-] (4.6,3) -- (5.4, 3);
+\node[below] at (4.5, 0) {二阶行实例};
+
+%draw table instance 
+\draw[very thick, ->] (5.6, 1.5) -- (5.9, 1.5);
+\node at (6.25, 0.25) {$a_2$}; \node at (6.75, 0.25) {$b_4$};
+\node at (6.25, 0.75) {$a_3$}; \node at (6.75, 0.75) {$b_3$};
+\node at (6.25, 1.25) {$a_1$}; \node at (6.75, 1.25) {$b_1$};
+\node at (6.25, 1.75) {$A$}; \node at (6.75, 1.75) {$B$};
+\draw[very thick,-] (6.1, 2) -- (6.9, 2);
+\draw[style=dashed,-] (6.1, 1.5) -- (6.9, 1.5);
+
+\node at (7.25, 0.25) {$a_2$}; \node at (7.75, 0.25) {$c_2$};
+\node at (7.25, 0.75) {$a_3$}; \node at (7.75, 0.75) {$c_1$};
+\node at (7.25, 1.25) {$a_1$}; \node at (7.75, 1.25) {$c_1$};
+\node at (7.25, 1.75) {$a_4$}; \node at (7.75, 1.75) {$c_1$};
+\node at (7.25, 2.25) {$A$}; \node at (7.75, 2.25) {$C$};
+\draw[very thick,-] (7.1, 2.5) -- (7.9, 2.5);
+\draw[style=dashed,-] (7.1, 2) -- (7.9, 2);
+
+\node at (8.25, 0.25) {$b_4$}; \node at (8.75, 0.25) {$c_2$};
+\node at (8.25, 0.75) {$b_3$}; \node at (8.75, 0.75) {$c_3$};
+\node at (8.25, 1.25) {$b_3$}; \node at (8.75, 1.25) {$c_1$};
+\node at (8.25, 1.75) {$B$}; \node at (8.75, 1.75) {$C$};
+\draw[very thick,-] (8.1, 2) -- (8.9, 2);
+\draw[style=dashed,-] (8.1, 1.5) -- (8.9, 1.5);
+\node[below] at (7.5,0) {二阶表实例};
+\node at (1.5,-1) {\uppercase\expandafter{\romannumeral1}};
+\node at (4.5,-1) {\uppercase\expandafter{\romannumeral2}};
+\node at (7.5,-1) {\uppercase\expandafter{\romannumeral3}};
+\end{tikzpicture}
+\end{document}

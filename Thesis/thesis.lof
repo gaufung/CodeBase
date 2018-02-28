@@ -1,0 +1,70 @@
+\contentsline {figure}{\numberline {图 1--1}{\ignorespaces 技术路线}}{5}{figure.1.1}
+\contentsline {figure}{\numberline {Figure 1--1}{\ignorespaces Technology route}}{5}{figure.1.1}
+\contentsline {figure}{\numberline {图 2--1}{\ignorespaces HDFS体系结构}}{8}{figure.2.1}
+\contentsline {figure}{\numberline {Figure 2--1}{\ignorespaces HDFS architecture}}{8}{figure.2.1}
+\contentsline {figure}{\numberline {图 2--2}{\ignorespaces Word-Count处理流程}}{9}{figure.2.2}
+\contentsline {figure}{\numberline {Figure 2--2}{\ignorespaces Word-Count procession}}{9}{figure.2.2}
+\contentsline {figure}{\numberline {图 2--3}{\ignorespaces Spark体系架构}}{10}{figure.2.3}
+\contentsline {figure}{\numberline {Figure 2--3}{\ignorespaces Spark architecture}}{10}{figure.2.3}
+\contentsline {figure}{\numberline {图 2--4}{\ignorespaces 窄依赖和宽依赖}}{12}{figure.2.4}
+\contentsline {figure}{\numberline {Figure 2--4}{\ignorespaces Narrow dependency and wide dependency}}{12}{figure.2.4}
+\contentsline {figure}{\numberline {图 2--5}{\ignorespaces 新浪微博API使用流程}}{14}{figure.2.5}
+\contentsline {figure}{\numberline {Figure 2--5}{\ignorespaces The usage of weibo's api}}{14}{figure.2.5}
+\contentsline {figure}{\numberline {图 3--1}{\ignorespaces Spatial-Spark体系架构}}{19}{figure.3.1}
+\contentsline {figure}{\numberline {Figure 3--1}{\ignorespaces Spatial-Spark architecture}}{19}{figure.3.1}
+\contentsline {figure}{\numberline {图 3--2}{\ignorespaces HDFS生成Spatial-RDD流程}}{20}{figure.3.2}
+\contentsline {figure}{\numberline {Figure 3--2}{\ignorespaces Generating Spatial RDD from HDFS}}{20}{figure.3.2}
+\contentsline {figure}{\numberline {图 3--3}{\ignorespaces RDD分区}}{20}{figure.3.3}
+\contentsline {figure}{\numberline {Figure 3--3}{\ignorespaces RDD partition illustration}}{20}{figure.3.3}
+\contentsline {figure}{\numberline {图 3--4}{\ignorespaces R树示意图}}{22}{figure.3.4}
+\contentsline {figure}{\numberline {Figure 3--4}{\ignorespaces R tree illustration}}{22}{figure.3.4}
+\contentsline {figure}{\numberline {图 3--5}{\ignorespaces 四叉树示意图}}{25}{figure.3.5}
+\contentsline {figure}{\numberline {Figure 3--5}{\ignorespaces Quadtree illustration}}{25}{figure.3.5}
+\contentsline {figure}{\numberline {图 3--6}{\ignorespaces MapReduce和Spatial-Spark查询对比}}{28}{figure.3.6}
+\contentsline {figure}{\numberline {Figure 3--6}{\ignorespaces MapReduce and Spatial-Spark topology query comparsion}}{28}{figure.3.6}
+\contentsline {figure}{\numberline {图 3--7}{\ignorespaces Spatial-Spark扩展性实验}}{29}{figure.3.7}
+\contentsline {figure}{\numberline {Figure 3--7}{\ignorespaces Spatial-Spark scale-out results}}{29}{figure.3.7}
+\contentsline {figure}{\numberline {图 3--8}{\ignorespaces Spatial-Spark索引和非索引比较}}{30}{figure.3.8}
+\contentsline {figure}{\numberline {Figure 3--8}{\ignorespaces Spatial-Spark index Vs. non-index query comparsion}}{30}{figure.3.8}
+\contentsline {figure}{\numberline {图 4--1}{\ignorespaces 微博网页POI}}{32}{figure.4.1}
+\contentsline {figure}{\numberline {Figure 4--1}{\ignorespaces POI in web}}{32}{figure.4.1}
+\contentsline {figure}{\numberline {图 4--2}{\ignorespaces 查询示意图}}{33}{figure.4.2}
+\contentsline {figure}{\numberline {Figure 4--2}{\ignorespaces Query illustration}}{33}{figure.4.2}
+\contentsline {figure}{\numberline {图 4--3}{\ignorespaces 程序界面}}{34}{figure.4.3}
+\contentsline {figure}{\numberline {Figure 4--3}{\ignorespaces Program interface}}{34}{figure.4.3}
+\contentsline {figure}{\numberline {图 4--4}{\ignorespaces POI类别词云}}{35}{figure.4.4}
+\contentsline {figure}{\numberline {Figure 4--4}{\ignorespaces Word cloud of pois' category}}{35}{figure.4.4}
+\contentsline {figure}{\numberline {图 4--5}{\ignorespaces 空间关系示意图}}{37}{figure.4.5}
+\contentsline {figure}{\numberline {Figure 4--5}{\ignorespaces Spatial relation illustration}}{37}{figure.4.5}
+\contentsline {figure}{\numberline {图 4--6}{\ignorespaces 二阶模式生成}}{39}{figure.4.6}
+\contentsline {figure}{\numberline {Figure 4--6}{\ignorespaces Generation of 2 order location pattern}}{39}{figure.4.6}
+\contentsline {figure}{\numberline {图 4--7}{\ignorespaces 坐标相等判断}}{40}{figure.4.7}
+\contentsline {figure}{\numberline {Figure 4--7}{\ignorespaces Judgement of coordinate equality}}{40}{figure.4.7}
+\contentsline {figure}{\numberline {图 4--8}{\ignorespaces (高等院校,培训机构)模式不同距离阈值在不同城市空间参与度}}{42}{figure.4.8}
+\contentsline {figure}{\numberline {Figure 4--8}{\ignorespaces (Academic institutions \& Training institutions) Pattern's Paticipation indexes in different distances and cities}}{42}{figure.4.8}
+\contentsline {figure}{\numberline {图 5--1}{\ignorespaces 流动示意图}}{45}{figure.5.1}
+\contentsline {figure}{\numberline {Figure 5--1}{\ignorespaces Floating illustration}}{45}{figure.5.1}
+\contentsline {figure}{\numberline {图 5--2}{\ignorespaces Spatial-Spark生成人口流动网络图}}{46}{figure.5.2}
+\contentsline {figure}{\numberline {Figure 5--2}{\ignorespaces Generation floating population graph using Spatial-Spark}}{46}{figure.5.2}
+\contentsline {figure}{\numberline {图 5--3}{\ignorespaces Triplet操作示意图}}{47}{figure.5.3}
+\contentsline {figure}{\numberline {Figure 5--3}{\ignorespaces Triplet operations illustration}}{47}{figure.5.3}
+\contentsline {figure}{\numberline {图 5--4}{\ignorespaces 人口流动统计流程图}}{47}{figure.5.4}
+\contentsline {figure}{\numberline {Figure 5--4}{\ignorespaces Flow chart of population statistic}}{47}{figure.5.4}
+\contentsline {figure}{\numberline {图 5--5}{\ignorespaces 流出、流出和流入流出比}}{48}{figure.5.5}
+\contentsline {figure}{\numberline {Figure 5--5}{\ignorespaces Flow-in,flow-out and flow-ratio}}{48}{figure.5.5}
+\contentsline {figure}{\numberline {图 5--6}{\ignorespaces 人口流动统计图}}{49}{figure.5.6}
+\contentsline {figure}{\numberline {Figure 5--6}{\ignorespaces Population flow statistic of cities}}{49}{figure.5.6}
+\contentsline {figure}{\numberline {图 5--7}{\ignorespaces 城市人口流向}}{50}{figure.5.7}
+\contentsline {figure}{\numberline {Figure 5--7}{\ignorespaces Cities' population flow}}{50}{figure.5.7}
+\contentsline {figure}{\numberline {图 5--8}{\ignorespaces 权重和GDP相关性分析}}{52}{figure.5.8}
+\contentsline {figure}{\numberline {Figure 5--8}{\ignorespaces Ranks \& GDP correlation analysis}}{52}{figure.5.8}
+\contentsline {figure}{\numberline {图 5--9}{\ignorespaces 残差平方与杠杆值散点图}}{52}{figure.5.9}
+\contentsline {figure}{\numberline {Figure 5--9}{\ignorespaces Residual square \& leverage scatter plot}}{52}{figure.5.9}
+\contentsline {figure}{\numberline {图 5--10}{\ignorespaces 社群归属延迟}}{56}{figure.5.10}
+\contentsline {figure}{\numberline {Figure 5--10}{\ignorespaces Delay of commumity combine illustration}}{56}{figure.5.10}
+\contentsline {figure}{\numberline {图 5--11}{\ignorespaces 社群合并示意图}}{56}{figure.5.11}
+\contentsline {figure}{\numberline {Figure 5--11}{\ignorespaces Community combine illustration}}{56}{figure.5.11}
+\contentsline {figure}{\numberline {图 5--12}{\ignorespaces 全国城市社群划分}}{57}{figure.5.12}
+\contentsline {figure}{\numberline {Figure 5--12}{\ignorespaces National communities illustration}}{57}{figure.5.12}
+\contentsline {figure}{\numberline {图 5--13}{\ignorespaces 子社群划分}}{58}{figure.5.13}
+\contentsline {figure}{\numberline {Figure 5--13}{\ignorespaces Sub-community illustration}}{58}{figure.5.13}

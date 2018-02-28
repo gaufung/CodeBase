@@ -1,0 +1,83 @@
+\contentsline {chapter}{摘要}{I}{section*.2}
+\contentsline {chapter}{目录}{V}{section*.4}
+\contentsline {chapter}{图清单}{IX}{section*.6}
+\contentsline {chapter}{表清单}{XIII}{section*.8}
+\contentsline {chapter}{变量注释表}{XV}{section*.10}
+\contentsline {chapter}{\numberline {1}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}研究背景和意义}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}国内外研究现状}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}并行计算框架研究现状}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}并行计算空间数据分析研究现状}{2}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}微博空间数据研究现状}{3}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}研究内容和技术路线}{4}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}研究内容}{4}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}技术路线}{4}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}论文结构安排}{4}{section.1.4}
+\contentsline {chapter}{\numberline {2}相关技术}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Hadoop技术}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}HDFS机制}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}MapReduce编程模型}{8}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}MapReduce不足}{9}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Spark计算框架}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Spark框架体系}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}RDD介绍}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Spark优势}{12}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}空间数据挖掘}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}新浪微博数据接口}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}微博API使用}{14}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}空间数据相关API}{15}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}本章小结}{15}{section.2.5}
+\contentsline {chapter}{\numberline {3}Spatial-Spark计算框架}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}空间数据分析处理}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}空间数据格式}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}空间数据转换}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}空间数据分析}{18}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}RDD空间扩展}{18}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}空间数据类型}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}空间数据索引}{20}{subsection.3.2.2}
+\contentsline {subsubsection}{RDD分区}{20}{section*.38}
+\contentsline {subsubsection}{分区索引}{21}{section*.40}
+\contentsline {subsection}{\numberline {3.2.3}空间数据查询}{22}{subsection.3.2.3}
+\contentsline {subsubsection}{空间拓扑查询}{23}{section*.42}
+\contentsline {subsubsection}{空间k邻居查询}{24}{section*.44}
+\contentsline {subsubsection}{空间连接查询}{25}{section*.45}
+\contentsline {section}{\numberline {3.3}Spatial-Spark实验分析}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}实验平台及配置}{26}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}实验对比分析}{28}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Spatial-Spark优化方案}{30}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}本章小结}{31}{section.3.4}
+\contentsline {chapter}{\numberline {4}POI空间数据分析}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}POI数据获取}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}统计分析}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}热门签到地点}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}热门签到类别}{35}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}同位模式}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}关联规则算法}{35}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}单主题空间关联规则}{36}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}多主题同位模式}{37}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Spatial-Spark同位模式}{39}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}微博POI同位模式}{41}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}二阶同位模式识别}{41}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}高阶同位模式识别}{43}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}本章小结}{43}{section.4.5}
+\contentsline {chapter}{\numberline {5}人口空间流动网络分析}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}数据获取}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}人口流动统计}{46}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}流动指数}{46}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}并行化设计}{47}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}统计分析}{48}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}人口流向分析}{49}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}PageRank算法}{50}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}城市流动网络权重}{51}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}人口流动网络社群挖掘}{53}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}社群挖掘算法}{53}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}社群挖掘算法并行化实现}{54}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}城市社群挖掘}{56}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}本章小结}{59}{section.5.5}
+\contentsline {chapter}{\numberline {6}结论和展望}{60}{chapter.6}
+\contentsline {section}{\numberline {6.1}结论}{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}展望}{61}{section.6.2}
+\contentsline {chapter}{参考文献}{62}{section*.103}
+\contentsline {chapter}{作者简历}{67}{section*.105}
+\contentsline {chapter}{学位论文原创性声明}{69}{section*.111}
+\contentsline {chapter}{学位论文数据集}{71}{section*.113}

@@ -1,0 +1,40 @@
+\contentsline {table}{\numberline {表 2--1}{\ignorespaces 微博接口描述(部分)}}{15}{table.2.1}
+\contentsline {table}{\numberline {Table 2--1}{\ignorespaces Description of Weibo api(partly)}}{15}{table.2.1}
+\contentsline {table}{\numberline {表 2--2}{\ignorespaces 接口参数说明}}{15}{table.2.2}
+\contentsline {table}{\numberline {Table 2--2}{\ignorespaces Description of api's parameters}}{15}{table.2.2}
+\contentsline {table}{\numberline {表 3--1}{\ignorespaces WKT矢量空间数据}}{16}{table.3.1}
+\contentsline {table}{\numberline {Table 3--1}{\ignorespaces Vector spatial data in WKT}}{16}{table.3.1}
+\contentsline {table}{\numberline {表 3--2}{\ignorespaces 空间分析和空间运算}}{18}{table.3.2}
+\contentsline {table}{\numberline {Table 3--2}{\ignorespaces Spatial analysises and spatial operations}}{18}{table.3.2}
+\contentsline {table}{\numberline {表 3--3}{\ignorespaces 空间几何拓扑关系}}{23}{table.3.3}
+\contentsline {table}{\numberline {Table 3--3}{\ignorespaces Geometry topology rules}}{23}{table.3.3}
+\contentsline {table}{\numberline {表 3--4}{\ignorespaces 集群配置}}{27}{table.3.4}
+\contentsline {table}{\numberline {Table 3--4}{\ignorespaces Cluster configurations}}{27}{table.3.4}
+\contentsline {table}{\numberline {表 3--5}{\ignorespaces 节点IP}}{27}{table.3.5}
+\contentsline {table}{\numberline {Table 3--5}{\ignorespaces Nodes' IP addresses}}{27}{table.3.5}
+\contentsline {table}{\numberline {表 3--6}{\ignorespaces 存储级别策略}}{31}{table.3.6}
+\contentsline {table}{\numberline {Table 3--6}{\ignorespaces Storage level stragies}}{31}{table.3.6}
+\contentsline {table}{\numberline {表 4--1}{\ignorespaces POI接口参数(部分)}}{32}{table.4.1}
+\contentsline {table}{\numberline {Table 4--1}{\ignorespaces POI api parameters(partly)}}{32}{table.4.1}
+\contentsline {table}{\numberline {表 4--2}{\ignorespaces 新浪微博POI数据(部分)}}{33}{table.4.2}
+\contentsline {table}{\numberline {Table 4--2}{\ignorespaces Properties of Weibo POI(partly)}}{33}{table.4.2}
+\contentsline {table}{\numberline {表 4--3}{\ignorespaces 热门签到地点}}{34}{table.4.3}
+\contentsline {table}{\numberline {Table 4--3}{\ignorespaces Hottest POIs in top 10}}{34}{table.4.3}
+\contentsline {table}{\numberline {表 4--4}{\ignorespaces 高等院校二阶同位模式}}{42}{table.4.4}
+\contentsline {table}{\numberline {Table 4--4}{\ignorespaces Advance academics' 2-order patterns}}{42}{table.4.4}
+\contentsline {table}{\numberline {表 4--5}{\ignorespaces 不同距离和参与率空间同位模式}}{43}{table.4.5}
+\contentsline {table}{\numberline {Table 4--5}{\ignorespaces Co-location patterns in defferent distances and PI's thresholds}}{43}{table.4.5}
+\contentsline {table}{\numberline {表 4--6}{\ignorespaces POI空间同位模式}}{44}{table.4.6}
+\contentsline {table}{\numberline {Table 4--6}{\ignorespaces Co-location patterns of POIs}}{44}{table.4.6}
+\contentsline {table}{\numberline {表 5--1}{\ignorespaces NearbyUsers接口参数}}{46}{table.5.1}
+\contentsline {table}{\numberline {Table 5--1}{\ignorespaces Nearby users api parameters}}{46}{table.5.1}
+\contentsline {table}{\numberline {表 5--2}{\ignorespaces 用户地理空间位置(部分)}}{46}{table.5.2}
+\contentsline {table}{\numberline {Table 5--2}{\ignorespaces Users' location information(partly)}}{46}{table.5.2}
+\contentsline {table}{\numberline {表 5--3}{\ignorespaces 城市流入流出比}}{48}{table.5.3}
+\contentsline {table}{\numberline {Table 5--3}{\ignorespaces Cities' flow ratio}}{48}{table.5.3}
+\contentsline {table}{\numberline {表 5--4}{\ignorespaces 城市Pagerank排名}}{51}{table.5.4}
+\contentsline {table}{\numberline {Table 5--4}{\ignorespaces Cities' Pagerank rank}}{51}{table.5.4}
+\contentsline {table}{\numberline {表 5--5}{\ignorespaces 全国城市社群划分详细}}{57}{table.5.5}
+\contentsline {table}{\numberline {Table 5--5}{\ignorespaces National cities communities details}}{57}{table.5.5}
+\contentsline {table}{\numberline {表 5--6}{\ignorespaces 子社群划分}}{58}{table.5.6}
+\contentsline {table}{\numberline {Table 5--6}{\ignorespaces Sub-community details}}{58}{table.5.6}

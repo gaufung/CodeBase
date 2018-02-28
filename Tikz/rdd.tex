@@ -1,0 +1,78 @@
+% -*- coding:utf-8 -*-
+\documentclass{standalone}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{matrix,calc,shapes,backgrounds,patterns,positioning,decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+[Nodelabel/.style={rectangle, rounded corners=2mm, draw=black}]
+% draw narrow dependency
+\draw[color=black] (0, 0.5) rectangle (0+1.5, 0.5+1.5+0.8);
+\draw[color=black] (0, -0.5) rectangle (0+1.5, -0.5-1.5-0.8);
+\draw[color=black] (3,-0.25-0.2-0.5-0.2) rectangle (4.5, 0.25+0.2+0.5+0.2);
+% draw the top rdd
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (0.25, 0.5+0.2) rectangle (0.25+1,0.5+0.2+0.5);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (0.25, 0.5+0.2+0.7) rectangle (0.25+1,0.5+0.2+0.5+0.7);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (0.25, 0.5+0.2+0.7+0.7) rectangle (0.25+1,0.5+0.2+0.5+0.7+0.7);
+% draw the bottom rdd
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (0.25, -0.5-0.2) rectangle (0.25+1,-0.5-0.2-0.5);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (0.25, -0.5-0.2-0.7) rectangle (0.25+1,-0.5-0.2-0.5-0.7);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (0.25, -0.5-0.2-0.7-0.7) rectangle (0.25+1,-0.5-0.2-0.5-0.7-0.7);
+
+% draw the right rdd
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (3.25, -0.25) rectangle (3.25+1.0, 0.25);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (3.25, -0.25+0.5+0.2) rectangle (3.25+1,-0.25+0.5+0.2+0.5);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (3.25, -0.25-0.2) rectangle (3.25+1,-0.25-0.2-0.5);
+
+% draw the line 
+\draw[thick, ->]  (1.25, 1.2-0.25) -- (3.25, -0.25-0.2-0.25);
+\draw[thick, ->]  (1.25, 1.2-0.25+0.7) -- (3.25, -0.25-0.2-0.25+0.7);
+\draw[thick, ->]  (1.25, 1.2-0.25+0.7+0.7) -- (3.25, -0.25-0.2-0.25+0.7+0.7);
+% another lines
+\draw[thick, ->]  (1.25, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25) -- (3.25, -0.25-0.2-0.25);
+\draw[thick, ->]  (1.25, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7) -- (3.25, -0.25-0.2-0.25+0.7);
+\draw[thick, ->]  (1.25, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7+0.7) -- (3.25, -0.25-0.2-0.25+0.7+0.7);
+
+% add a node
+\node[Nodelabel] at (2, -3.5) {窄依赖};
+% draw wide dependency
+\draw[color=black] (6, 0.5) rectangle (6+1.5, 0.5+1.5+0.8);
+\draw[color=black] (6, -0.5) rectangle (6+1.5, -0.5-1.5-0.8);
+\draw[color=black] (3+6,-0.25-0.2-0.5-0.2) rectangle (4.5+6, 0.25+0.2+0.5+0.2);
+
+% draw the top rdd
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (6.25, 0.5+0.2) rectangle (0.25+1+6,0.5+0.2+0.5);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (6.25, 0.5+0.2+0.7) rectangle (0.25+1+6,0.5+0.2+0.5+0.7);
+\draw[color=black, rounded corners=1.5mm,pattern=north west lines, pattern color=darkgray] (6.25, 0.5+0.2+0.7+0.7) rectangle (0.25+1+6,0.5+0.2+0.5+0.7+0.7);
+% draw the bottom rdd
+\draw[color=black, rounded corners=1.5mm,pattern=north east lines, pattern color=darkgray] (6.25, -0.5-0.2) rectangle (0.25+1+6,-0.5-0.2-0.5);
+\draw[color=black, rounded corners=1.5mm,pattern=north east lines, pattern color=darkgray] (6.25, -0.5-0.2-0.7) rectangle (0.25+1+6,-0.5-0.2-0.5-0.7);
+\draw[color=black, rounded corners=1.5mm,pattern=north east lines, pattern color=darkgray] (6.25, -0.5-0.2-0.7-0.7) rectangle (0.25+1+6,-0.5-0.2-0.5-0.7-0.7);
+
+% draw the right rdd
+\draw[color=black, rounded corners=1.5mm,pattern=crosshatch, pattern color=darkgray] (3.25+6, -0.25) rectangle (3.25+1.0+6, 0.25);
+\draw[color=black, rounded corners=1.5mm,pattern=crosshatch, pattern color=darkgray] (3.25+6, -0.25+0.5+0.2) rectangle (3.25+1+6,-0.25+0.5+0.2+0.5);
+\draw[color=black, rounded corners=1.5mm,pattern=crosshatch, pattern color=darkgray] (3.25+6, -0.25-0.2) rectangle (3.25+1+6,-0.25-0.2-0.5);
+
+% draw the line 
+\draw[thick, ->]  (1.25+6, 1.2-0.25) -- (3.25+6, -0.25-0.2-0.25);
+\draw[thick, ->]  (1.25+6, 1.2-0.25+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7);
+\draw[thick, ->]  (1.25+6, 1.2-0.25+0.7+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7+0.7);
+\draw[thick, ->]  (1.25+6, 1.2-0.25) -- (3.25+6, -0.25-0.2-0.25+0.7);
+\draw[thick, ->]  (1.25+6, 1.2-0.25+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7+0.7);
+\draw[thick, ->]  (1.25+6, 1.2-0.25+0.7+0.7) -- (3.25+6, -0.25-0.2-0.25);
+% another lines
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25) -- (3.25+6, -0.25-0.2-0.25);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7+0.7);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25) -- (3.25+6, -0.25-0.2-0.25);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7+0.7);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25) -- (3.25+6, -0.25-0.2-0.25+0.7);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7) -- (3.25+6, -0.25-0.2-0.25+0.7+0.7);
+\draw[thick, ->]  (1.25+6, -0.25-0.2-0.5-0.2-0.5-0.2-0.25-0.25+0.7+0.7) -- (3.25+6, -0.25-0.2-0.25);
+% add a node
+\node[Nodelabel] at (2+6, -3.5) {宽依赖};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,6 @@
+Cannot look up from database
+Starting new HTTP connection (1): cn.bing.com
+http://cn.bing.com:80 "GET /dict/search?q=good HTTP/1.1" 200 55115
+Cannot look up from database
+Starting new HTTP connection (1): cn.bing.com
+http://cn.bing.com:80 "GET /dict/search?q=white HTTP/1.1" 200 51239

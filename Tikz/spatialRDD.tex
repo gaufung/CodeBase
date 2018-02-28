@@ -1,0 +1,25 @@
+% -*- coding:utf-8 -*-
+\documentclass{standalone}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{matrix,calc,shapes,backgrounds,patterns,positioning,decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+\draw[fill=none] (0,0+0.25) rectangle (2,1.5-0.25) node at (1,.75) {\small HDFS};
+\draw[fill=none] (3,0+0.2) rectangle (5, 1.5-0.2) node[align=center] at(4, 0.75) {\small 文件读取 \\ (IFormat)};
+\draw[fill=none] (6,0+0.2) rectangle (8, 1.5-0.2)  node[align=center] at (7,0.75) {\small 坐标变换 \\ (IProject)};
+\draw[very thick, ->] (2, 0.75) -- (3, 0.75);
+\draw[very thick, ->] (5,0.75) -- (6, 0.75);
+
+\draw (11, 0.75) ellipse (1.25 and 0.5) node at (11, 0.75) {\small LineRDD};
+\draw (11, 2.75-0.75)  ellipse (1.25 and 0.5) node at (11, 2.75-0.75) {\small PointRDD};
+\draw (11, 0.75-2+0.75) ellipse (1.25 and 0.5) node at (11, 0.75-2+0.75) {\small PolygonRDD};
+
+\draw[very thick, ->] (8,0.75) -- (9.75, 0.75);
+\draw[very thick, ->] (8,0.75) -- (9.75, 2.75-0.75);
+\draw[very thick, ->] (8,0.75) -- (9.75, -1.25+0.75);
+\end{tikzpicture}
+\end{document}
